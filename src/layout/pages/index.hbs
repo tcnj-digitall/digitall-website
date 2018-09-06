@@ -1,0 +1,32 @@
+---
+heading: Women in Computer Science
+mission: This group began as an initiative to bring together the female members of the Computer Science community at TCNJ and anyone else with genuine interest in computing and science.
+meeting:
+  day: Wednesday
+  time: "2:00pm"
+  room: STEM 102
+---
+<header id="home-heading">
+    <img id="tcnj-img" src="img/icon.png" alt="TCNJ">
+    <h1>{{heading}}</h1>
+</header>
+
+<img id="front-img" src="img/home.jpg" alt="ACM"/>
+
+
+<h2>Mission</h2>
+<p>{{mission}}</p>
+
+
+<h2>Meeting Times</h2>
+<p>{{meeting.day}} at {{meeting.time}} in {{meeting.room}}.</p>
+
+<h2>Mailing List Sign Up</h2>
+<form action="https://tcnj.us10.list-manage.com/subscribe/post?u=bbccc42fc1a74775fee14e1a2&amp;id=5a216ce7a7" method="post" target="_blank" novalidate>
+    <label>First Name: <input type="text" name="FNAME"></label>
+    <label>Last Name: <input type="text" name="LNAME"></label>
+    <label>Email: <input type="email" name="EMAIL"></label>
+    <label>Graduating Year: <input type="number" name="YEAR"></label>
+    <label>Major: <input type="text" name="MAJOR"></label>
+    <input type="submit" value="Subscribe" name="subscribe">
+</form>
