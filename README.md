@@ -1,13 +1,13 @@
-# WICS Website
+# DIGIT.all Website
 
-> A static website generator for TCNJ's WICS club website.
+> A static website generator for TCNJ's DIGIT.all club website.
 
 ## Setup
 
 Clone the repository:
 
 ```sh
-$ git clone https://github.com/tcnj-wics/wics-website.git
+$ git clone https://github.com/tcnj-digitall/digitall-website.git
 ```
 
 Install [yarn](https://yarnpkg.com) if you don't have it.
@@ -15,13 +15,13 @@ Install [yarn](https://yarnpkg.com) if you don't have it.
 Install the dependencies:
 
 ```sh
-$ cd wics-website
+$ cd digitall-website
 $ yarn install
 ```
 
 ## Building
 
-Build in the `wics-website` folder:
+Build in the `digitall-website` folder:
 
 ```sh
 $ yarn start
@@ -79,7 +79,7 @@ Images of any type can be added to the Gallery page by adding them to the `img/g
 
 In order to deploy the website to https://tcnj.edu/~wics use [tcnj-deploy](https://github.com/TomerAberbach/tcnj-deploy).
 
-Deploy in the `wics-website` folder:
+Deploy in the `digitall-website` folder:
 
 ```sh
 $ ./tcnj-deploy dist

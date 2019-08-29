@@ -1,5 +1,5 @@
 {
-  "name": "wics-website",
+  "name": "digitall-website",
   "author": "Tomer Aberbach <tomeraberbach@gmail.com> (https://tomeraberba.ch)",
   "scripts": {
     "start": "gulp",
